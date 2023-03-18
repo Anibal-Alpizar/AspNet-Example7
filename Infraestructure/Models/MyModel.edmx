@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="InventarioModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="estante">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="150" Nullable="false" />
+        </EntityType>
+        <EntityType Name="producto">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="nombre" Type="varchar" MaxLength="200" Nullable="false" />
+          <Property Name="totalStock" Type="int" Nullable="false" />
+          <Property Name="cantMaxima" Type="int" Nullable="false" />
+          <Property Name="cantMinima" Type="int" Nullable="false" />
+          <Property Name="idCategoria" Type="int" Nullable="false" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="costoUnitario" Type="float" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="300" Nullable="false" />
+          <Property Name="imagen" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="productoEstante">
+          <Key>
+            <PropertyRef Name="idProducto" />
+            <PropertyRef Name="idEstante" />
+          </Key>
+          <Property Name="idProducto" Type="int" Nullable="false" />
+          <Property Name="cantidad" Type="int" />
+          <Property Name="idEstante" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="proveedor">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="nombreEmpresa" Type="varchar" MaxLength="150" Nullable="false" />
+          <Property Name="direccion" Type="varchar" MaxLength="150" Nullable="false" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="proveedorProducto">
+          <Key>
+            <PropertyRef Name="idProveedor" />
+            <PropertyRef Name="idProducto" />
+          </Key>
+          <Property Name="idProveedor" Type="int" Nullable="false" />
+          <Property Name="idProducto" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TipoCategoria">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_producto_TipoCategoria">
+          <End Role="TipoCategoria" Type="Self.TipoCategoria" Multiplicity="1" />
+          <End Role="producto" Type="Self.producto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoCategoria">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="producto">
+              <PropertyRef Name="idCategoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_productoEstante_estante">
+          <End Role="estante" Type="Self.estante" Multiplicity="1" />
+          <End Role="productoEstante" Type="Self.productoEstante" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="estante">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="productoEstante">
+              <PropertyRef Name="idEstante" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_productoEstante_producto">
+          <End Role="producto" Type="Self.producto" Multiplicity="1" />
+          <End Role="productoEstante" Type="Self.productoEstante" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="producto">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="productoEstante">
+              <PropertyRef Name="idProducto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_proveedorProducto_producto">
+          <End Role="producto" Type="Self.producto" Multiplicity="1" />
+          <End Role="proveedorProducto" Type="Self.proveedorProducto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="producto">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="proveedorProducto">
+              <PropertyRef Name="idProducto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_proveedorProducto_proveedor">
+          <End Role="proveedor" Type="Self.proveedor" Multiplicity="1" />
+          <End Role="proveedorProducto" Type="Self.proveedorProducto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="proveedor">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="proveedorProducto">
+              <PropertyRef Name="idProveedor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="InventarioModelStoreContainer">
+          <EntitySet Name="estante" EntityType="Self.estante" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="producto" EntityType="Self.producto" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="productoEstante" EntityType="Self.productoEstante" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="proveedor" EntityType="Self.proveedor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="proveedorProducto" EntityType="Self.proveedorProducto" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TipoCategoria" EntityType="Self.TipoCategoria" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_producto_TipoCategoria" Association="Self.FK_producto_TipoCategoria">
+            <End Role="TipoCategoria" EntitySet="TipoCategoria" />
+            <End Role="producto" EntitySet="producto" />
+          </AssociationSet>
+          <AssociationSet Name="FK_productoEstante_estante" Association="Self.FK_productoEstante_estante">
+            <End Role="estante" EntitySet="estante" />
+            <End Role="productoEstante" EntitySet="productoEstante" />
+          </AssociationSet>
+          <AssociationSet Name="FK_productoEstante_producto" Association="Self.FK_productoEstante_producto">
+            <End Role="producto" EntitySet="producto" />
+            <End Role="productoEstante" EntitySet="productoEstante" />
+          </AssociationSet>
+          <AssociationSet Name="FK_proveedorProducto_producto" Association="Self.FK_proveedorProducto_producto">
+            <End Role="producto" EntitySet="producto" />
+            <End Role="proveedorProducto" EntitySet="proveedorProducto" />
+          </AssociationSet>
+          <AssociationSet Name="FK_proveedorProducto_proveedor" Association="Self.FK_proveedorProducto_proveedor">
+            <End Role="proveedor" EntitySet="proveedor" />
+            <End Role="proveedorProducto" EntitySet="proveedorProducto" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="InventarioModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="estante">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="productoEstante" Relationship="Self.FK_productoEstante_estante" FromRole="estante" ToRole="productoEstante" />
+        </EntityType>
+        <EntityType Name="producto">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="nombre" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="totalStock" Type="Int32" Nullable="false" />
+          <Property Name="cantMaxima" Type="Int32" Nullable="false" />
+          <Property Name="cantMinima" Type="Int32" Nullable="false" />
+          <Property Name="idCategoria" Type="Int32" Nullable="false" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="costoUnitario" Type="Double" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="imagen" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="TipoCategoria" Relationship="Self.FK_producto_TipoCategoria" FromRole="producto" ToRole="TipoCategoria" />
+          <NavigationProperty Name="productoEstante" Relationship="Self.FK_productoEstante_producto" FromRole="producto" ToRole="productoEstante" />
+          <NavigationProperty Name="proveedor" Relationship="Self.proveedorProducto" FromRole="producto" ToRole="proveedor" />
+        </EntityType>
+        <EntityType Name="productoEstante">
+          <Key>
+            <PropertyRef Name="idProducto" />
+            <PropertyRef Name="idEstante" />
+          </Key>
+          <Property Name="idProducto" Type="Int32" Nullable="false" />
+          <Property Name="cantidad" Type="Int32" />
+          <Property Name="idEstante" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="estante" Relationship="Self.FK_productoEstante_estante" FromRole="productoEstante" ToRole="estante" />
+          <NavigationProperty Name="producto" Relationship="Self.FK_productoEstante_producto" FromRole="productoEstante" ToRole="producto" />
+        </EntityType>
+        <EntityType Name="proveedor">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="nombreEmpresa" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="direccion" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="producto" Relationship="Self.proveedorProducto" FromRole="proveedor" ToRole="producto" />
+        </EntityType>
+        <EntityType Name="TipoCategoria">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Descripcion" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="producto" Relationship="Self.FK_producto_TipoCategoria" FromRole="TipoCategoria" ToRole="producto" />
+        </EntityType>
+        <Association Name="FK_productoEstante_estante">
+          <End Role="estante" Type="Self.estante" Multiplicity="1" />
+          <End Role="productoEstante" Type="Self.productoEstante" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="estante">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="productoEstante">
+              <PropertyRef Name="idEstante" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_producto_TipoCategoria">
+          <End Role="TipoCategoria" Type="Self.TipoCategoria" Multiplicity="1" />
+          <End Role="producto" Type="Self.producto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TipoCategoria">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="producto">
+              <PropertyRef Name="idCategoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_productoEstante_producto">
+          <End Role="producto" Type="Self.producto" Multiplicity="1" />
+          <End Role="productoEstante" Type="Self.productoEstante" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="producto">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="productoEstante">
+              <PropertyRef Name="idProducto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="proveedorProducto">
+          <End Role="producto" Type="Self.producto" Multiplicity="*" />
+          <End Role="proveedor" Type="Self.proveedor" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="inventarioEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="estante" EntityType="Self.estante" />
+          <EntitySet Name="producto" EntityType="Self.producto" />
+          <EntitySet Name="productoEstante" EntityType="Self.productoEstante" />
+          <EntitySet Name="proveedor" EntityType="Self.proveedor" />
+          <EntitySet Name="TipoCategoria" EntityType="Self.TipoCategoria" />
+          <AssociationSet Name="FK_productoEstante_estante" Association="Self.FK_productoEstante_estante">
+            <End Role="estante" EntitySet="estante" />
+            <End Role="productoEstante" EntitySet="productoEstante" />
+          </AssociationSet>
+          <AssociationSet Name="FK_producto_TipoCategoria" Association="Self.FK_producto_TipoCategoria">
+            <End Role="TipoCategoria" EntitySet="TipoCategoria" />
+            <End Role="producto" EntitySet="producto" />
+          </AssociationSet>
+          <AssociationSet Name="FK_productoEstante_producto" Association="Self.FK_productoEstante_producto">
+            <End Role="producto" EntitySet="producto" />
+            <End Role="productoEstante" EntitySet="productoEstante" />
+          </AssociationSet>
+          <AssociationSet Name="proveedorProducto" Association="Self.proveedorProducto">
+            <End Role="producto" EntitySet="producto" />
+            <End Role="proveedor" EntitySet="proveedor" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="InventarioModelStoreContainer" CdmEntityContainer="inventarioEntities">
+          <EntitySetMapping Name="estante">
+            <EntityTypeMapping TypeName="InventarioModel.estante">
+              <MappingFragment StoreEntitySet="estante">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="producto">
+            <EntityTypeMapping TypeName="InventarioModel.producto">
+              <MappingFragment StoreEntitySet="producto">
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="totalStock" ColumnName="totalStock" />
+                <ScalarProperty Name="cantMaxima" ColumnName="cantMaxima" />
+                <ScalarProperty Name="cantMinima" ColumnName="cantMinima" />
+                <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="costoUnitario" ColumnName="costoUnitario" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="imagen" ColumnName="imagen" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="productoEstante">
+            <EntityTypeMapping TypeName="InventarioModel.productoEstante">
+              <MappingFragment StoreEntitySet="productoEstante">
+                <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+                <ScalarProperty Name="idEstante" ColumnName="idEstante" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="proveedor">
+            <EntityTypeMapping TypeName="InventarioModel.proveedor">
+              <MappingFragment StoreEntitySet="proveedor">
+                <ScalarProperty Name="nombreEmpresa" ColumnName="nombreEmpresa" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TipoCategoria">
+            <EntityTypeMapping TypeName="InventarioModel.TipoCategoria">
+              <MappingFragment StoreEntitySet="TipoCategoria">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="proveedorProducto" TypeName="InventarioModel.proveedorProducto" StoreEntitySet="proveedorProducto">
+            <EndProperty Name="producto">
+              <ScalarProperty Name="id" ColumnName="idProducto" />
+            </EndProperty>
+            <EndProperty Name="proveedor">
+              <ScalarProperty Name="id" ColumnName="idProveedor" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

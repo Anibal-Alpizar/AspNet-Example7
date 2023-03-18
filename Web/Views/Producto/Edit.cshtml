@@ -1,0 +1,109 @@
+﻿@model Infraestructure.Models.producto
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Save", "Producto", FormMethod.Post, new { enctype = "multipart/form-data", @class = "row g-3" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>producto</h4>
+        <hr />
+        <div class="form-group">
+            @Html.HiddenFor(model => model.id)
+        </div>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.nombre, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.nombre, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.nombre, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.totalStock, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.totalStock, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.totalStock, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.cantMaxima, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.cantMaxima, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.cantMaxima, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.cantMinima, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.cantMinima, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.cantMinima, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group mb-4 position-relative d-flex align-items-center" style="padding-right: 30px;" data-toggle="modal" data-target="#exampleModal">
+            <label for="idCategoria">
+                Categoria
+            </label>
+            @Html.DropDownListFor(model => model.idCategoria, null, htmlAttributes: new { @class = "form-control" })
+
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.costoUnitario, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.costoUnitario, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.costoUnitario, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.descripcion, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.descripcion, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.descripcion, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="selectProvedores" class="form-label" style="display: flex; align-items: center;"><i class="fas fa-money-bill-wave" style="color: rgb(39, 58, 93); margin-right: 7px;"></i>Seleccionar los proveedores</label>
+            @Html.DropDownList("selectProvedores", (MultiSelectList)ViewBag.idProducto, htmlAttributes: new { @class = "form-control", multiple = "multiple" })
+
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" id="submitBtn" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+<script>
+        $(function () {
+            $("#submitBtn").click(function () {
+                if ($("#selectProvedores option:selected").length < 2) {
+                    $("#selectProvedores").after("<span class='text-danger'>Debe seleccionar al menos dos proveedores</span>");
+                    return false;
+                }
+            });
+        });
+</script>
+}

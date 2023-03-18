@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="InventarioModelStoreContainer" CdmEntityContainer="inventarioEntities">
+    <EntitySetMapping Name="estante">
+      <EntityTypeMapping TypeName="InventarioModel.estante">
+        <MappingFragment StoreEntitySet="estante">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="producto">
+      <EntityTypeMapping TypeName="InventarioModel.producto">
+        <MappingFragment StoreEntitySet="producto">
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="totalStock" ColumnName="totalStock" />
+          <ScalarProperty Name="cantMaxima" ColumnName="cantMaxima" />
+          <ScalarProperty Name="cantMinima" ColumnName="cantMinima" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="costoUnitario" ColumnName="costoUnitario" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="imagen" ColumnName="imagen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="productoEstante">
+      <EntityTypeMapping TypeName="InventarioModel.productoEstante">
+        <MappingFragment StoreEntitySet="productoEstante">
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="idEstante" ColumnName="idEstante" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="proveedor">
+      <EntityTypeMapping TypeName="InventarioModel.proveedor">
+        <MappingFragment StoreEntitySet="proveedor">
+          <ScalarProperty Name="nombreEmpresa" ColumnName="nombreEmpresa" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoCategoria">
+      <EntityTypeMapping TypeName="InventarioModel.TipoCategoria">
+        <MappingFragment StoreEntitySet="TipoCategoria">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="proveedorProducto" TypeName="InventarioModel.proveedorProducto" StoreEntitySet="proveedorProducto">
+      <EndProperty Name="producto">
+        <ScalarProperty Name="id" ColumnName="idProducto" />
+      </EndProperty>
+      <EndProperty Name="proveedor">
+        <ScalarProperty Name="id" ColumnName="idProveedor" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,260 @@
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Infraestructure.dll.config
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Infraestructure.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Infraestructure.pdb
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Dapper.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\EntityFramework.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\log4net.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.Options.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Newtonsoft.Json.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\RestSharp.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Buffers.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Memory.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Numerics.Vectors.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Text.Encodings.Web.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Text.Json.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.ValueTuple.dll
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Dapper.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\EntityFramework.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\log4net.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.Options.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\Newtonsoft.Json.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\RestSharp.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Buffers.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Memory.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Numerics.Vectors.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Text.Encodings.Web.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Text.Json.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\EjemplosASP\appPractica1\Infraestructure\bin\Debug\System.ValueTuple.xml
+D:\EjemplosASP\appPractica1\Infraestructure\obj\Debug\Infraestructure.csproj.AssemblyReference.cache
+D:\EjemplosASP\appPractica1\Infraestructure\obj\Debug\Infraestructure.csproj.CoreCompileInputs.cache
+D:\EjemplosASP\appPractica1\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
+D:\EjemplosASP\appPractica1\Infraestructure\obj\Debug\Infraestructure.dll
+D:\EjemplosASP\appPractica1\Infraestructure\obj\Debug\Infraestructure.pdb
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Infraestructure.dll.config
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Infraestructure.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Infraestructure.pdb
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Dapper.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\EntityFramework.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\log4net.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Options.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Newtonsoft.Json.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\RestSharp.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Buffers.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Memory.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Numerics.Vectors.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Text.Encodings.Web.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Text.Json.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.ValueTuple.dll
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Dapper.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\EntityFramework.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\log4net.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Options.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\Newtonsoft.Json.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\RestSharp.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Buffers.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Memory.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Numerics.Vectors.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Text.Encodings.Web.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Text.Json.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\EjemplosASP\appPractica2\Infraestructure\bin\Debug\System.ValueTuple.xml
+D:\EjemplosASP\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.AssemblyReference.cache
+D:\EjemplosASP\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.CoreCompileInputs.cache
+D:\EjemplosASP\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
+D:\EjemplosASP\appPractica2\Infraestructure\obj\Debug\Infraestructure.dll
+D:\EjemplosASP\appPractica2\Infraestructure\obj\Debug\Infraestructure.pdb
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Infraestructure.dll.config
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Infraestructure.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Infraestructure.pdb
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Dapper.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\EntityFramework.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\log4net.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\RestSharp.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Buffers.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Memory.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Text.Json.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.ValueTuple.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Dapper.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\EntityFramework.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\log4net.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\RestSharp.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Buffers.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Memory.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Text.Json.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\bin\Debug\System.ValueTuple.xml
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.AssemblyReference.cache
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\obj\Debug\Infraestructure.dll
+C:\Users\anibal\Desktop\appPractica2\Infraestructure\obj\Debug\Infraestructure.pdb
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Infraestructure.dll.config
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Infraestructure.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Infraestructure.pdb
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Dapper.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\EntityFramework.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\log4net.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\RestSharp.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Buffers.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Memory.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Text.Json.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.ValueTuple.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Dapper.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\EntityFramework.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\log4net.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\RestSharp.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Buffers.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Memory.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Text.Json.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.ValueTuple.xml
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.AssemblyReference.cache
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.dll
+C:\Users\ale-b\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.pdb
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Infraestructure.dll.config
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Infraestructure.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Infraestructure.pdb
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Dapper.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\EntityFramework.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\log4net.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\RestSharp.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Buffers.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Memory.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Text.Json.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.ValueTuple.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Dapper.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\EntityFramework.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\log4net.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\RestSharp.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Buffers.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Memory.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Text.Json.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\bin\Debug\System.ValueTuple.xml
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.AssemblyReference.cache
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.dll
+C:\Users\anibal\Desktop\Quiz 2\appPractica2\Infraestructure\obj\Debug\Infraestructure.pdb

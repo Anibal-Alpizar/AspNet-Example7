@@ -1,0 +1,65 @@
+﻿@model Infraestructure.Models.producto
+
+@{
+    ViewBag.Title = "Más detalles";
+}
+
+<div class="titulo">
+    <h2>Detalle del producto</h2>
+    <hr />
+</div>
+
+<div class="detalle" style="margin-left:8%">
+    <div class="row">
+        <div class="col">
+            <strong>@Html.DisplayNameFor(model => model.nombre)</strong>
+            <br />
+            @Html.DisplayFor(model => model.nombre)
+            <br /><br />
+
+            <strong>@Html.DisplayNameFor(model => model.totalStock)</strong>
+            <br />
+            @Html.DisplayFor(model => model.totalStock)
+            <br /><br />
+
+            <strong>@Html.DisplayNameFor(model => model.cantMaxima)</strong>
+            <br />
+            @Html.DisplayFor(model => model.cantMaxima)
+            <br /><br />
+
+            <strong>@Html.DisplayNameFor(model => model.cantMinima)</strong>
+            <br />
+            @Html.DisplayFor(model => model.cantMinima)
+            <br /><br />
+
+            <strong>@Html.DisplayNameFor(model => model.costoUnitario)</strong>
+            <br />
+           @Html.DisplayFor(model => model.costoUnitario)
+            <br /><br />
+        </div>
+
+        <div class="col">
+            <strong>@Html.DisplayNameFor(model => model.descripcion)</strong>
+            <br />
+            @Html.DisplayFor(model => model.descripcion)
+            <br /><br />
+
+            <strong>@Html.DisplayNameFor(model => model.TipoCategoria)</strong>
+            <br />
+            @Html.DisplayFor(model => model.TipoCategoria.Descripcion)
+            <br /><br />
+            
+        </div>
+
+        <div class="col">
+            <strong>@Html.DisplayNameFor(model => model.proveedor)</strong>
+            <br />
+            @foreach (var pro in Model.proveedor)
+            {
+                <ul type="circle">
+                    <li>@pro.nombreEmpresa</li>
+                </ul>
+            }
+        </div>
+    </div>
+</div>
